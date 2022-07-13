@@ -1,9 +1,11 @@
 @use "./variables";
+@use "./vh";
 @use "./fonts";
 @use "./norm";
 
 // blocks
 @use "./blocks/header";
+@use "./blocks/nav";
 
 *,
 *::after,
@@ -17,6 +19,7 @@ html {
 
 body {
   margin: 0;
+  margin-top: 107px;
   padding: 0;
   font-family: "Rubik", "Arial", sans-serif;
 }
