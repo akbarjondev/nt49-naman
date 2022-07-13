@@ -32,18 +32,36 @@
         </div>
 
         <form action="" class="header__form">
-          <input type="search" name="search" />
+          <label class="header__label-search" for="search">
+            <input
+              class="header__search"
+              type="search"
+              id="search"
+              name="search"
+              placeholder="Поиск"
+            />
+          </label>
         </form>
 
-        <form class="header__lang">
+        <form class="header__lang header__lang--active">
           <div class="header__wrapper">
-            <label for="uz">UZ</label>
-            <input type="radio" name="lang" id="uz" />
+            <input
+              class="header__radio visually-hidden"
+              type="radio"
+              name="lang"
+              id="uz"
+            />
+            <label class="header__lang-label" for="uz">UZ</label>
           </div>
 
           <div class="header__wrapper">
-            <label for="ru">RU</label>
-            <input type="radio" name="lang" id="ru" />
+            <input
+              class="header__radio visually-hidden"
+              type="radio"
+              name="lang"
+              id="ru"
+            />
+            <label class="header__lang-label" for="ru">RU</label>
           </div>
         </form>
 
